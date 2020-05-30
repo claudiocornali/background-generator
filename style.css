@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+
+body {
+	color: #444444;
+}
+
+h1, h2 {
+	text-align: center
+}
+
+div.color-pickers {
+	display: flex;
+	justify-content: center;
+}
+
+#css {
+    font-size: 0.9em;
+    font-family: monospace;
+}
+
+div.cssOutput {
+	text-align: center;
+}
+
+input.css {
+	width: 40%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #eeeeee;
+}
+
+input[type=button], input[type=color] {
+    padding: 2px 6px;
+    color: rgba(0,0,0,.8);
+    border: transparent;
+    background-color: #e6e6e6;
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 0 4px;
+}
